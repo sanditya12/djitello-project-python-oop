@@ -8,8 +8,8 @@ drone.connect()
 drone.streamon()
 
 vision = Vision()
-vision.setWebcam(0)
-
+# vision.setWebcam(0)
+vision.setDrone(drone)
 
 prevError =0
 
