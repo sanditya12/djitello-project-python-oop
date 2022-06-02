@@ -5,5 +5,5 @@ class Face:
       self.w = w
       self.h = h
       self.area = w*h
-      self.cx = (x+w)/2
-      self.cy = (y+h)/2
+      self.cx = (x+w)//2
+      self.cy = (y+h)//2
